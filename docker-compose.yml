@@ -1,0 +1,14 @@
+version: '2'
+services:
+  gulp:
+      build:
+        context: ./gulp/
+        # Environment variables
+        args:
+          - USER
+          - USER_ID
+      ports:
+          - 8082:9000
+      volumes:
+          - .:/var/www/html
+      working_dir: /var/www/html/web/themes/custom/tema-base
