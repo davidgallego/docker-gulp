@@ -15,7 +15,7 @@ sudo usermod -aG docker `whoami`
 ```
 * Instalar docker-compose (https://docs.docker.com/compose/install/)
 
-### Inicio (+info: alberto.silva@biko2.com)
+### Inicio
 Para que funcione, hay que definir un par de variables (mediante docker-set-enviroment.sh) antes de hacer el build de la imagen.
 ```sh
 $ source docker-set-enviroment.sh
